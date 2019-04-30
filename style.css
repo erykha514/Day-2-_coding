@@ -1,0 +1,75 @@
+h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+h2 {
+  color: rgb(157, 41, 192);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 6px;
+}
+
+header {
+  background-color: purple;
+  max-height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+#myquote {
+  margin: 8vh 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-image: url(images/architecture.jpeg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+.tips {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: black;
+  min-height: 10vh;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  background-color: rgba(221, 221, 207, 0.801);
+  margin: 20px 25px;
+  border-radius: 8px;
+  padding: 45px 20px;
+}
+a {
+  margin: 20px;
+}
+#section_one {
+}
+
+#section_two {
+}
+
+#section_three {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 20vw;
+  display: flex;
+  flex-direction: column;
+}
